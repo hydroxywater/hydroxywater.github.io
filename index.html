@@ -55,13 +55,12 @@ overflow: hidden;
 		</div>
 	</div>
 </nav>
-
-<div class="main" style="background-image: url('images/video_bg.jpg')">
-        <video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
-            <source src="./video/waterlapse.mp4" type="video/mp4">
-			<source src="./video/waterlapse.webm" type="video/webm">
-            Video not supported 
-        </video>
+<div class="video-background-container parallax" data-stellar-ratio="0.4" style="top: 0px;">
+					<video preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" id="video_background" style="width: 1326.22px; height: 746px; margin-top: 0px; margin-left: -452.111px;">
+						<source type="video/mp4" src="./video/waterlapse.mp4">
+						<source type="video/webm" src="./video/waterlapse.webm">
+					</video>
+</div>
 <!--    Change the image source '/images/video_bg.jpg')" with your favourite image.     -->
     <div class="cover black" data-color="black"></div>
      
