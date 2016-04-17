@@ -1,0 +1,345 @@
+@media print {
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    font,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td {
+        font-family: arial, helvetica, sans-serif
+    }
+    h1 {
+        font-size: 24px;
+        text-decoration: underline
+    }
+    h2 {
+        font-size: 22px;
+        text-decoration: underline
+    }
+    h3 {
+        font-size: 20px;
+        text-decoration: underline
+    }
+    h4 {
+        font-size: 18px
+    }
+    h5 {
+        font-size: 16px
+    }
+    p {
+        font-size: 12px
+    }
+    a {
+        text-decoration: underline
+    }
+    .PrintOnly {
+        display: block
+    }
+    body,
+    #page,
+    body.not-logged-in #page,
+    #content,
+    .side-bar #body-content,
+    table {
+        width: 100%
+    }
+    #header,
+    #basicPage {
+        width: 95%
+    }
+    .noPrint,
+    .menu,
+    .header-menu,
+    #flash-div,
+    .show-advanced,
+    .grid-filter,
+    #block-menu,
+    #navigation,
+    .welcome_user a,
+    a.ui-jqgrid-titlebar-close,
+    .excel-link,
+    #alertcnt,
+    #alertmod {
+        display: none !important
+    }
+    .welcome_user {
+        float: right
+    }
+    .ui-jqgrid {
+        border: 1px solid #aaa
+    }
+    .ui-jqgrid .ui-jqgrid-htable th {
+        border-bottom: 1px solid #aaa;
+        font-size: 12px;
+        text-align: left !important
+    }
+    .ui-jqgrid .ui-widget-content td {
+        border-right: 1px solid #aaa;
+        border-bottom: 1px solid #aaa;
+        padding: 2px;
+        font-size: 10px
+    }
+    .ui-jqgird .ui-widget-content td:last-child {
+        border-right: 0px
+    }
+    .ui-jqgrid .ui-jqgrid-htable th#accounts_grid_account_documents_link div {
+        content: none
+    }
+    .ui-jqgrid .ui-jqgrid-htable th div {
+        overflow: hidden;
+        position: relative
+    }
+    tr#titlerow td {
+        font-size: 10px;
+        font-weight: bold;
+        height: 25px;
+        text-align: left;
+        padding-left: 6px;
+        padding-top: 5px;
+        color: #222222;
+        border-bottom: 1px solid #aaaaaa
+    }
+    table.return,
+    table.aum {
+        border-left: 1px solid #aaaaaa;
+        border-right: 1px solid #aaaaaa;
+        width: 100%;
+        margin-bottom: 20px
+    }
+    table.return tr th,
+    table.aum tr th {
+        border-bottom: 1px solid #aaaaaa;
+        font-size: 11px;
+        height: 22px;
+        padding-top: 3px;
+        text-align: center;
+        font-weight: bold;
+        background: #e6e4e4
+    }
+    table.return tr td,
+    table.aum tr td {
+        border-bottom: 1px solid #aaaaaa;
+        font-size: 10px;
+        height: 22px;
+        padding-top: 3px;
+        text-align: center;
+        background: #fff
+    }
+    table.return tr td.year_column,
+    table.aum tr td.year_column {
+        font-weight: bold
+    }
+    table.return tr td.estimate::after,
+    table.aum tr td.estimate::after {
+        content: '*'
+    }
+    table.return tr td.negative_value,
+    table.aum tr td.negative_value {
+        color: red
+    }
+    table.return tr td.year_sum,
+    table.aum tr td.year_sum {
+        background: #f0f1f1
+    }
+    table.return tr td.partial_period_estimate::after {
+        content: '**'
+    }
+    .estimate-note {
+        width: 110px;
+        border: 1px solid #cccccc;
+        font-size: 11px;
+        margin: 10px 20px 10px 0;
+        padding: 3px;
+        float: left
+    }
+    .estimate-note::before {
+        content: '*'
+    }
+    .partial_period_estimate-note {
+        border: 1px solid #cccccc;
+        font-size: 11px;
+        margin: 10px 0;
+        padding: 3px;
+        width: 170px;
+        float: left
+    }
+    .partial_period_estimate-note::before {
+        content: '**'
+    }
+    .fund-legend {
+        height: 30px
+    }
+    table.investment-details td {
+        font-size: 12px
+    }
+    #lb-attachable {
+        width: 800px;
+        height: 100%;
+        background: #d9e7f5
+    }
+    #activity-area {
+        clear: both
+    }
+    .lb-top {
+        font-size: 12px;
+        text-align: right;
+        padding: 10px 10px 0;
+        font-weight: bold;
+        color: #325475;
+        height: 20px
+    }
+    .lb-top h3 {
+        font-size: 14px;
+        float: left;
+        color: #325475;
+        font-family: arial, sans-serif
+    }
+    .lb-top h3 span {
+        text-transform: capitalize;
+        font-style: italic
+    }
+    #lb-attachable h4 {
+        font-weight: bold;
+        font-size: 14px
+    }
+    #activity-details {
+        width: 360px
+    }
+    #activity-attached {
+        float: right;
+        width: 380px
+    }
+    .note #activity-attached {
+        float: none;
+        width: 450px
+    }
+    .hidden-note {
+        display: none
+    }
+    .note .hidden-note {
+        display: block
+    }
+    .call .hidden-call {
+        display: none
+    }
+    #lb-attachable dl {
+        padding: 10px 10px 8px
+    }
+    #lb-attachable dt,
+    #lb-attachable dd {
+        padding: 0 0 4px;
+        margin: 8px 0 0 0;
+        font-size: 11px;
+        color: #325475
+    }
+    #lb-attachable dt {
+        font-weight: bold;
+        float: left;
+        padding: 0 5px 0 0
+    }
+    #lb-attachable dd {
+        border-bottom: 1px solid #9ac;
+        min-height: 10px;
+        color: #333
+    }
+    #lb-attachable dd li {
+        list-style: none;
+        display: inline;
+        padding: 0 10px 0 0
+    }
+    .lb-body {
+        clear: both;
+        margin: 10px;
+        border: 1px solid #000;
+        padding: 10px;
+        background: #fff
+    }
+    .lb-body p {
+        font-size: 12px;
+        font-family: arial
+    }
+    .lb-body ul,
+    .lb-body ol {
+        padding: 0 0 0 20px
+    }
+    .lb-body ul li {
+        font-size: 12px;
+        list-style: disc
+    }
+    .lb-body ul ul li {
+        font-size: 12px;
+        list-style: circle
+    }
+    .lb-body ul ul ul li {
+        font-size: 12px;
+        list-style: square
+    }
+    .lb-body ol li {
+        font-size: 12px;
+        list-style: decimal
+    }
+    .lb-body ol ol li {
+        font-size: 12px;
+        list-style: lower-roman
+    }
+    .lb-bottom {
+        padding: 10px;
+        color: #325475;
+        font-size: 12px
+    }
+    body#print-layout,
+    #print-layout #lb-attachable {
+        background: #fff
+    }
+}

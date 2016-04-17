@@ -1,0 +1,369 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+h1.site-name {
+  padding: 10px 0 0 14px;
+  font: 0/ 0 arial;
+  background: transparent;
+  float: left;
+  width: 158px; }
+
+h2 {
+  font-size: 22px;
+  color: #642200;
+  margin: 0 0 10px 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+h3 {
+  font-size: 14px;
+  color: #97682a;
+  margin: 0 0 3px 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+p a:link, p a:visited, p a:active {
+  color: #0033FF;
+  text-decoration: none; }
+
+p a:hover {
+  color: #0033FF;
+  text-decoration: underline; }
+
+p strong {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif; }
+
+em {
+  font-style: italic; }
+
+.small-text p {
+  font-size: 10px;
+  line-height: 12px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+#basicPage {
+  padding: 0; }
+
+#basicPage ul {
+  list-style: circle;
+  margin-left: 20px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0 0 20px 8px; }
+
+#basicPage ul li {
+  font-size: 12px;
+  line-height: 16px;
+  padding-bottom: 4px; }
+
+hr.clear {
+  visibility: hidden;
+  height: 0px;
+  background: transparent;
+  margin: 0;
+  border: none;
+  padding: 0;
+  clear: both;
+  overflow: hidden; }
+
+/*BACKGROUND*/
+body {
+  background: url(./bg_tile.gif) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  color: #534138; }
+
+/*INTERIOR*/
+#page {
+  margin: 0 auto;
+  text-align: left;
+  width: 917px;
+  background: url(./page_tile.gif) center top repeat-y;
+  color: #000000; }
+
+/*HEADER*/
+#header {
+  padding: 0 10px;
+  height: 222px;
+  margin: 0 auto;
+  width: 897px; }
+
+#header {
+  background: transparent url(./header_spurs.gif) top center no-repeat; }
+
+#header-inner {
+  height: 222px;
+  position: relative; }
+
+a.site-name img {
+  padding: 10px 0 0 10px; }
+
+.page-business-summary #header,
+.page-investment-strategy #header,
+.page-risk-management #header,
+.page-investment-team #header,
+.page-documents #header,
+.page-ddq #header,
+.page-audited-financial-statments #header,
+.page-offering-documents #header,
+#header .header-menu {
+  background: none repeat scroll 0 0 #642200;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 897px; }
+
+#header-menu ul {
+  background: #642200; }
+
+#header .header-menu li {
+  float: left;
+  display: inline;
+  position: static;
+  border-right: 1px solid #fff;
+  height: 29px;
+  padding-top: 11px;
+  background: transparent; }
+
+#header .header-menu li a {
+  font-family: Times New Roman, Times, serif;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px 0 13px;
+  font-size: 1.2em;
+  background: transparent; }
+
+#header .header-menu li:hover,
+#header .header-menu li.current-link {
+  color: #FFF;
+  background: #7b4113;
+  cursor: pointer; }
+
+#header .header-menu li a:active {
+  color: #FFFF99;
+  background: #7b4113; }
+
+.welcome_user {
+  position: relative;
+  top: 8px;
+  right: 20px;
+  background: #642200;
+  width: auto;
+  padding: 2px 4px;
+  float: right;
+  border: 1px solid #fff; }
+
+.welcome_user p {
+  color: #fff;
+  font-size: 10px;
+  text-align: right; }
+
+.welcome_user p a {
+  color: #fff;
+  text-decoration: underline;
+  padding-left: 20px; }
+
+/*MAIN CONTENT*/
+#content {
+  position: relative;
+  padding: 20px 30px; }
+
+#main-content {
+  width: auto;
+  float: none;
+  position: relative;
+  min-height: 250px; }
+
+#side-content {
+  width: auto;
+  float: none;
+  position: relative;
+  min-height: 250px;
+  margin-left: 200px;
+  border-left: 1px solid #4e4e4e;
+  padding: 10px 0 0 20px; }
+
+/*LEFT SIDEBAR*/
+#navigation {
+  overflow: visible;
+  width: 180px;
+  min-height: 190px;
+  float: left;
+  top: 0;
+  left: 0;
+  position: relative;
+  z-index: 5;
+  padding: 10px 0 0 0; }
+
+#navigation .body-menu {
+  background: transparent; }
+
+#navigation #user-menu {
+  display: none; }
+
+.body-menu,
+.business-menu,
+.fund-menu,
+.performance-menu,
+.document-menu {
+  font-size: 12px;
+  padding-top: 1px;
+  background: transparent; }
+
+.body-menu ul,
+.business-menu ul,
+.fund-menu ul,
+.performance-menu ul,
+.document-menu ul {
+  width: 190px;
+  padding-bottom: 25px; }
+
+.body-menu li,
+.business-menu li,
+.fund-menu li,
+.performance-menu li,
+.document-menu li {
+  list-style-image: none;
+  padding-bottom: 12px; }
+
+.body-menu li a,
+.business-menu li a,
+.fund-menu li a,
+.performance-menu li a,
+.document-menu li a {
+  color: #642100;
+  line-height: 14px;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: Times New Roman, Times, serif; }
+
+.body-menu li a:hover,
+.body-menu li.current-link a,
+.business-menu li a:hover,
+.business-menu li.current-link a,
+.fund-menu li a:hover,
+.fund-menu li.current-link a,
+.performance-menu li a:hover,
+.perfornamce-menu li.current-link a,
+.document-menu li a:hover,
+.document-menu li.current-link a {
+  text-decoration: underline; }
+
+#miniadmin {
+  display: none; }
+
+.submenu-title {
+  display: none; }
+
+.side-bar #body-content {
+  margin-left: 190px;
+  border-left: 1px solid #642100;
+  padding-left: 20px;
+  min-height: 300px; }
+
+#body-content {
+  min-height: 300px; }
+
+/*FOOTER*/
+#footer {
+  background: url(./page_footer.gif) top center no-repeat;
+  padding-top: 20px;
+  height: 50px; }
+
+#footer-inner {
+  padding_top: 20px; }
+
+#footer .footer-menu {
+  float: none;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 710px; }
+
+#footer .footer-menu li {
+  background: none;
+  display: inline;
+  text-align: center;
+  float: left;
+  position: relative; }
+
+#footer .footer-menu a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #fff;
+  text-decoration: underline; }
+
+#footer-inner .copyright {
+  text-align: left;
+  color: #fff;
+  font-size: 11px;
+  padding-left: 30px; }
+
+#footer-inner a {
+  text-align: right;
+  color: #fff;
+  font-size: 11px;
+  padding-left: 30px; }
+
+/* Login page */
+.login-page {
+  margin: 0 auto;
+  text-align: left;
+  width: 850px;
+  padding-top: 65px; }
+
+.login-page .login-background {
+  background: url(./splash_bg.gif) no-repeat -27px 0px;
+  height: 350px;
+  padding: 20px 30px 0 620px;
+  -moz-box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000; }
+
+.login-fields {
+  width: 260px;
+  display: none; }
+
+.login-page p {
+  font-family: Montserrat, Times, serif;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 20px;
+  padding-bottom: 15px;
+  text-align: justify;
+  border-bottom: 0;
+  margin: 0; }
+
+.login-page .login-background {
+  background: url(./splash_bg.gif) no-repeat -27px 0px;
+  height: 270px;
+  padding: 100px 30px 0 601px;
+  -moz-box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000; }
+
+#flash-div {
+  display: none; }
+
+body.not-logged-in li#link_502581 {
+  display: none; }
+body.not-logged-in #page.page-business-summary {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  margin: 0 auto;
+  width: 100%; }
+  body.not-logged-in #page.page-business-summary #header {
+    display: none; }
+  body.not-logged-in #page.page-business-summary #navigation {
+    display: none; }
+  body.not-logged-in #page.page-business-summary .side-bar #body-content {
+    border-left: medium none;
+    margin-left: 0;
+    min-height: 300px;
+    padding-left: 0; }
+  body.not-logged-in #page.page-business-summary #basicPage #footer {
+    display: block; }
+  body.not-logged-in #page.page-business-summary #footer {
+    display: none; }
+
